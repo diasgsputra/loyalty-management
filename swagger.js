@@ -13,7 +13,7 @@ const options = {
         },
         servers: [
             {
-                url: '0.0.0.0',
+                url: 'localhost',
                 description: 'Development server',
             },
         ],
