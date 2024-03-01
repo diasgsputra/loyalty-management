@@ -17,6 +17,9 @@ const options = {
                 description: 'Development server',
             },
         ],
+        schemes: "http",
+        consumes: "application/json",
+        produces: "application/json"
     },
     apis: ['./routes/*.js'], // Path to the API routes
 };
