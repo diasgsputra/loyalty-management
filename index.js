@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const { sequelize } = require('./models'); // Assuming you have your Sequelize models in the models directory
 const { specs, swaggerUi } = require('./swagger');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 9002;
 
 // Middleware
 app.use(bodyParser.json());
