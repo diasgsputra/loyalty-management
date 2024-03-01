@@ -5,11 +5,11 @@ const UserModel = require('./userModel');
 
 const sequelize = new Sequelize({
     dialect: 'postgres',
-    host: 'localhost',
+    host: 'rosie.db.elephantsql.com',
     port: 5432,
-    database: 'postgres',
-    username: 'postgres',
-    password: 'admin'
+    database: 'kiyffqta',
+    username: 'kiyffqta',
+    password: 'IjQz9ovAfBqw4OfIOpObc5lNQvlL3z3a'
 });
 
 const User = UserModel(sequelize);
