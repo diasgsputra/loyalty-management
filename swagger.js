@@ -13,7 +13,7 @@ const options = {
         },
         servers: [
             {
-                url: 'https://loyalty-management-seven.vercel.app',
+                url: '0.0.0.0',
                 description: 'Development server',
             },
         ],
