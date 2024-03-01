@@ -13,7 +13,7 @@ const options = {
         },
         servers: [
             {
-                url: 'localhost',
+                url: 'https://petstore.swagger.io/v2/swagger.json',
                 description: 'Development server',
             },
         ],
