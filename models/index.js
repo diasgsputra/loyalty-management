@@ -1,5 +1,5 @@
 // models/index.js
-
+const pg = require('pg');
 const { Sequelize } = require('sequelize');
 const UserModel = require('./userModel');
 
