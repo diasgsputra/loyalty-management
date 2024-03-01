@@ -13,13 +13,13 @@ const options = {
         },
         servers: [
             {
-                url: 'https://petstore.swagger.io/v2/swagger.json',
+                url: 'https://loyalty-management-nine.vercel.app',
                 description: 'Development server',
             },
         ],
-        schemes: "http",
-        consumes: "application/json",
-        produces: "application/json"
+        // schemes: "http",
+        // consumes: "application/json",
+        // produces: "application/json"
     },
     apis: ['./routes/*.js'], // Path to the API routes
 };
