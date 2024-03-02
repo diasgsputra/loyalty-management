@@ -14,7 +14,8 @@ But the data is still empty, please inject the data by running this file on your
 The host for local service is http://localhost:9002 
 The host for local swagger is http://localhost:9002/api-docs
 
-In case the local database cannot be created, please use the deployed database:
+In case the local database cannot be created, please use the deployed database->
+
 dialect: 'postgres', 
 host: 'rosie.db.elephantsql.com', 
 port: 5432, 
