@@ -9,12 +9,18 @@ const ItemModel = require('./itemModel');
 const TierManagementModel = require('./tierManagementModel');
 
 const sequelize = new Sequelize({
+    // dialect: 'postgres',
+    // host: 'rosie.db.elephantsql.com',
+    // port: 5432,
+    // database: 'kiyffqta',
+    // username: 'kiyffqta',
+    // password: 'IjQz9ovAfBqw4OfIOpObc5lNQvlL3z3a'
     dialect: 'postgres',
-    host: 'rosie.db.elephantsql.com',
+    host: 'localhost',
     port: 5432,
-    database: 'kiyffqta',
-    username: 'kiyffqta',
-    password: 'IjQz9ovAfBqw4OfIOpObc5lNQvlL3z3a'
+    database: 'postgres',
+    username: 'postgres',
+    password: 'admin'
 });
 
 const User = UserModel(sequelize);
