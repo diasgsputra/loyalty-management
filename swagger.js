@@ -14,12 +14,10 @@ const options = {
         servers: [
             {
                 url: 'https://loyalty-management-nine.vercel.app',
+                // url: 'http://localhost:9002',
                 description: 'Development server',
             },
         ],
-        // schemes: "http",
-        // consumes: "application/json",
-        // produces: "application/json"
     },
     apis: ['./routes/*.js'], // Path to the API routes
 };

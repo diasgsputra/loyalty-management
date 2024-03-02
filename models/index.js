@@ -2,6 +2,11 @@
 const pg = require('pg');
 const { Sequelize } = require('sequelize');
 const UserModel = require('./userModel');
+const MembershipModel = require('./membershipModel');
+const TransactionModel = require('./transactionModel');
+const HistoryPoinModel = require('./historyPoinModel');
+const ItemModel = require('./itemModel');
+const TierManagementModel = require('./tierManagementModel');
 
 const sequelize = new Sequelize({
     dialect: 'postgres',
@@ -13,8 +18,18 @@ const sequelize = new Sequelize({
 });
 
 const User = UserModel(sequelize);
+const Membership = MembershipModel(sequelize);
+const Transaction = TransactionModel(sequelize);
+const HistoryPoin = HistoryPoinModel(sequelize);
+const Item = ItemModel(sequelize);
+const TierManagement = TierManagementModel(sequelize);
 
 module.exports = {
     sequelize,
-    User
+    User,
+    Membership,
+    Transaction,
+    HistoryPoin,
+    Item,
+    TierManagement
 };
