@@ -10,7 +10,7 @@ To run the service :
 npm run start
 
 Once the service started, the database table would be auto-generated
-But the data is still empty, please inject the data by running this file :
+But the data is still empty, please inject the data by running this file on your database editor such as heidiSQL or DBeaver:
 'loyalty_management_inject_data.sql'
 
 The host for local service is http://localhost:9002
